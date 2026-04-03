@@ -24,9 +24,6 @@ dependencies:
   # WHATSAPP & LINK
   url_launcher: ^6.2.5
 
-  # BLUETOOTH PRINT
-  blue_thermal_printer: ^1.2.3
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
