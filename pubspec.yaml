@@ -1,0 +1,47 @@
+name: parevie_flutter
+description: Aplikasi manajemen konsinyasi parfum MJ (Flutter Version)
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ICON IOS STYLE
+  cupertino_icons: ^1.0.6
+
+  # DATABASE (pengganti SQLite + localStorage)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # FORMAT TANGGAL & RUPIAH
+  intl: ^0.18.1
+
+  # WHATSAPP & LINK
+  url_launcher: ^6.2.5
+
+  # BLUETOOTH PRINT
+  blue_thermal_printer: ^1.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # ===== OPTIONAL (aktifkan nanti kalau butuh) =====
+
+  # assets:
+  #   - assets/images/
+
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
